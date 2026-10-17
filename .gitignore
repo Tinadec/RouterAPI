@@ -2,8 +2,24 @@
 bin/
 *.exe
 
+# Go
+vendor/
+
 # Data
 backend/data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Backups
+*.bak
+
+# Keys and certificates
+*.pem
+*.key
 
 # Dependencies
 frontend/node_modules/
@@ -23,3 +39,6 @@ Thumbs.db
 # Environment
 .env
 .env.local
+
+# Qoder
+.qoder/
